@@ -29,7 +29,7 @@ app.get("/:date", (req, resp) => {
     response.natural = time.format(DATE_FORMAT);
   }
 
-  res.send(JSON.stringify(response));
+  resp.send(JSON.stringify(response));
 })
 
 // listen for requests :)
