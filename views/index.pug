@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    title=Timestamp microservice
+    meta(name="description", content="The smallest micro service")
+    link(id="favicon", rel="icon", href="https://glitch.com/edit/favicon-app.ico", type="image/x-icon")
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel='stylesheet', href='/style.css')
+  body
+    h1 Timestamp microservice
+
+  blockquote User stories:
+    ul 1) I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or
+    ul a natural language date (example: January 1, 2016)
+    ul 2) If it does, it returns both the Unix timestamp and the natural language form of that date.
+    ul 3) If it does not contain a date or Unix timestamp, it returns null for those properties.
+
+  h3 Example usage:
+    br
+    code https://aqueous-sea-47177.herokuapp.com/December%2015,%202015
+    br
+    code https://aqueous-sea-47177.herokuapp.com/1450137600
+
+  h3 Example output:
+    br
+    code { "unix": 1450137600, "natural": "December 15, 2015" }
