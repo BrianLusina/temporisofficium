@@ -9,8 +9,9 @@ User stories:
 3. If it does not contain a date or Unix timestamp, it returns null for those properties.
 
 Example usage:
-https://timestampms.glitch.me/December%2015,%202015
-https://timestampms.glitch.me/1450137600
+https://proud-spot.glitch.me/December%2015,%202015
+
+https://proud-spot.glitch.me/1450137600
 
 Example output:
 { "unix": 1450137600, "natural": "December 15, 2015" }
