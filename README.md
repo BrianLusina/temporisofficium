@@ -1,6 +1,8 @@
 Temporis Officium
 =========================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/BrianLusina/temporisofficium.svg)](https://greenkeeper.io/)
+
 A simple micro service for displaying time
 
 User stories:
